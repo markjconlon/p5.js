@@ -4,7 +4,7 @@ var diameter = 5;
 
 function setup() {
   createCanvas(500, 500);
-  frameRate(1);
+  frameRate(2);
 }
 
 function draw() {
@@ -43,8 +43,7 @@ function draw() {
   ellipse(250,250, 60, 10);
   rect(235, 210, 30, 40);
   ellipse(250,210, 30, 10);
-  fill('brown');
-  stroke('brown');
-  quad(150+30,200+75,155+30,195+75,185+30,250+75,190+30,255+75);
-  quad(310,200+75,315,195+75,270,250+75,275,255+75);
+  fill(100);
+  stroke(100);
+  quad(150,200,155,200,175,250,180,250);
 }
